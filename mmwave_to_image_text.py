@@ -319,7 +319,7 @@ def save_and_label_trajectory(trajectory_2d: np.ndarray, file_path: str) -> None
     base_dir = "mmPencil_dataset"
 
     # Derive relative path to the .npy file, used to structure vision/ output
-    relative_path = os.path.relpath(os.path.dirname(file_path), os.path.join(base_dir, "cube"))
+    relative_path = os.path.relpath(os.path.dirname(file_path), os.path.join(base_dir, "mmWave"))
 
     # Define full path to save the output PNG image
     png_save_path = os.path.join(base_dir, "vision", relative_path,
@@ -411,7 +411,7 @@ def process_single_file(file_path: str, n_sample: int, n_channel: int, slope: fl
         # Define the root directory for output
         base_dir = "mmPencil_dataset"
         # Derive relative path to the .npy file, used to structure vision/ output
-        relative_path = os.path.relpath(os.path.dirname(file_path), os.path.join(base_dir, "cube"))
+        relative_path = os.path.relpath(os.path.dirname(file_path), os.path.join(base_dir, "mmWave"))
         # Define full path to save the output PNG image
         png_save_path = os.path.join(base_dir, "vision", relative_path,
                                      os.path.basename(file_path).replace(".npy", ".png"))
@@ -436,7 +436,7 @@ if __name__ == '__main__':
     N = 4  # FFT interpolation factor
     c = 3e8  # Speed of light (m/s)
 
-    root_dir = "mmPencil_dataset/cube"
+    root_dir = "mmPencil_dataset/mmWave"
 
     # Collect all .npy file paths under the directory
     npy_file_list = []
