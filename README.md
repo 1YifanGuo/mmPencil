@@ -11,6 +11,12 @@ We also collect and release a [3D mmWave handwriting dataset](https://www.kaggle
 ***
 ## 🔧 Environment Setup
 
+### 📥 Clone the Project Repository
+```bash
+git clone https://github.com/1YifanGuo/mmPencil.git
+cd mmPencil
+```
+
 ### 🐍 Create a Conda Environment
 ```bash
 conda create -n mmPencil python=3.10
@@ -39,12 +45,7 @@ pip install transformers==4.48.0 peft==0.11.1
 conda env create -f environment.yml
 ```
 ***
-## 📁 Code and Data Preparation
-### 📥 Clone the Project Repository
-```bash
-git clone https://github.com/1YifanGuo/mmPencil.git
-cd mmPencil
-```
+## 📁 Data and Model Preparation
 ### 💾 Download mmpencil Dataset
 > Create dataset directory
 ```bash
