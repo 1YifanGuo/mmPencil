@@ -129,6 +129,19 @@ bash scripts/inference.sh
 python3 evaluation.py mmpencil-<model>/<checkpoint>/infer_result/<timestamp>.jsonl
 ```
 ***
+## 📚 Citation
+If you use the dataset or this project, please cite it as follows:
+```bibtex
+@misc{yifan_guo_zhu_wang_qian_qin_yangqian_lei_qiwen_gan_zhuo_sun_chao_chen_bin_guo_zhiwen_yu_2025,
+	title={mmpencil-dataset},
+	url={https://www.kaggle.com/dsv/11612847},
+	DOI={10.34740/KAGGLE/DSV/11612847},
+	publisher={Kaggle},
+	author={Yifan Guo and Zhu Wang and Qian Qin and Yangqian Lei and Qiwen Gan and Zhuo Sun and Chao Chen and Bin Guo and Zhiwen Yu},
+	year={2025}
+}
+```
+***
 ## ✅ Acknowledgements
 
 Grateful acknowledgment for the efficient fine-tuning support from [ms-swift](https://github.com/modelscope/ms-swift) and [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory). Thanks to the open-source VLMs [Qwen2-VL](https://github.com/QwenLM/Qwen2.5-VL), [LLaVA-Next](https://github.com/LLaVA-VL/LLaVA-NeXT), and [GOT-OCR](https://github.com/Ucas-HaoranWei/GOT-OCR2.0). Acknowledgement for the support provided by the authors of [MMHTSR_DATASET](https://github.com/Tkwer/MMHTSR_DATASET).
