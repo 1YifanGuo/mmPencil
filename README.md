@@ -130,7 +130,7 @@ python3 evaluation.py mmpencil-<model>/<checkpoint>/infer_result/<timestamp>.jso
 ```
 ***
 ## 📚 Citation
-If you use the dataset or this project, please cite it as follows:
+If you find anything useful in our project or dataset, please consider citing it as follows:
 ```bibtex
 @misc{yifan_guo_zhu_wang_qian_qin_yangqian_lei_qiwen_gan_zhuo_sun_chao_chen_bin_guo_zhiwen_yu_2025,
 	title={mmpencil-dataset},
