@@ -141,6 +141,20 @@ If you find anything useful in our project or dataset, please consider citing it
 	year={2025}
 }
 ```
+```bibtex
+@article{10.1145/3749504,
+    title = {mmPencil: Toward Writing-Style-Independent In-Air Handwriting Recognition via mmWave Radar and Large Vision-Language Model},
+    author = {Guo, Yifan and Wang, Zhu and Qin, Qian and Lei, Yangqian and Gan, Qiwen and Sun, Zhuo and Chen, Chao and Guo, Bin and Yu, Zhiwen},
+    journal = {Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.},
+    publisher = {Association for Computing Machinery},
+    doi = {10.1145/3749504},
+    volume = {9},
+    number = {3},
+    year = {2025},
+    articleno = {81},
+    numpages = {30}
+}
+```
 ***
 ## ✅ Acknowledgements
 
