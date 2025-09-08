@@ -132,27 +132,15 @@ python3 evaluation.py mmpencil-<model>/<checkpoint>/infer_result/<timestamp>.jso
 ## 📚 Citation
 If you find anything useful in our project or dataset, please consider citing it as follows:
 ```bibtex
-@misc{yifan_guo_zhu_wang_qian_qin_yangqian_lei_qiwen_gan_zhuo_sun_chao_chen_bin_guo_zhiwen_yu_2025,
-	title={mmpencil-dataset},
-	url={https://www.kaggle.com/dsv/11612847},
-	DOI={10.34740/KAGGLE/DSV/11612847},
-	publisher={Kaggle},
-	author={Yifan Guo and Zhu Wang and Qian Qin and Yangqian Lei and Qiwen Gan and Zhuo Sun and Chao Chen and Bin Guo and Zhiwen Yu},
-	year={2025}
-}
-```
-```bibtex
-@article{10.1145/3749504,
-    title = {mmPencil: Toward Writing-Style-Independent In-Air Handwriting Recognition via mmWave Radar and Large Vision-Language Model},
-    author = {Guo, Yifan and Wang, Zhu and Qin, Qian and Lei, Yangqian and Gan, Qiwen and Sun, Zhuo and Chen, Chao and Guo, Bin and Yu, Zhiwen},
-    journal = {Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.},
-    publisher = {Association for Computing Machinery},
-    doi = {10.1145/3749504},
-    volume = {9},
-    number = {3},
-    year = {2025},
-    articleno = {81},
-    numpages = {30}
+@article{guo2025mmpencil,
+  title={mmPencil: Toward Writing-Style-Independent In-Air Handwriting Recognition via mmWave Radar and Large Vision-Language Model},
+  author={Guo, Yifan and Wang, Zhu and Qin, Qian and Lei, Yangqian and Gan, Qiwen and Sun, Zhuo and Chen, Chao and Guo, Bin and Yu, Zhiwen},
+  journal={Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},
+  volume={9},
+  number={3},
+  pages={1--30},
+  year={2025},
+  publisher={ACM New York, NY, USA}
 }
 ```
 ***
